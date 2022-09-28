@@ -282,3 +282,12 @@ background-color:#256D85 ;
 .formulario{
 	padding: 20px;
 }
+.navbar-custom{
+	background-color: #4d6087;
+}
+.lista-custom:hover{
+		background-color: #256D85;
+}
+.card-custom{
+	border: 2px solid #256D85;
+}
