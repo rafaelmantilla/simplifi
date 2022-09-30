@@ -4,83 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../Imagenes/Logo_Simplifi.ico" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>SimpliFi</title>
+    <title>Simplifi</title>
 </head>
 <body>
-    <header class="cabezera">
-        <img src="../Imagenes/Logo_Simplifi.ico" alt="">
-    </header>
-     <nav class="nav_cabezera"> 
-        <ul class="menu_horizontal">
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="Productos.html">Productos</a>
-                <ul class="menu_vertical">
-                    <li>
-                        <a href="../paginas/Productos.html #PFM ">PFM</a>
-                    </li>
-                    <li>
-                        <a href="../paginas/Productos.html #Microahorro">Microahorro</a>
-                    </li>
-                    <li>
-                        <a href="../paginas/Productos.html #Ahorros_Grupales">Ahorros Grupales</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="Prensa.html">Prensa</a>
-            </li>
-            <li>
-                <a href="Nosotros.html">Nosotros</a>
-            </li>
-            <li>
-                <a href="Contacto.html">Contáctanos</a>
-            </li>
-        </ul>
-     </nav>     
+    <nav class="navbar navbar-expand-lg navbar-custom fs-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../Imagenes/Logo_Simplifi.ico"alt="" class="animacion-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-light lista-custom" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link text-light lista-custom " href="../paginas/Productos.html">Productos</a>
+              <a class="nav-link text-light lista-custom" href="../paginas/Prensa.html">Prensa</a>
+              <a class="nav-link text-light lista-custom" href="../paginas/Nosotros.html">Nosotros</a>
+              <a class="nav-link text-light lista-custom" href="../paginas/Contacto.html">Contáctanos</a>
+            </div>
+          </div>
+        </div>
+      </nav>    
     <main>
-        <Section class="contacto_portada">
-            <div class="contacto_mensaje">
-                <h1>LLevamos la innovación a productos financieros que realmente importan</h1>
+        <div class="container-fluid container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>LLevamos la innovación a productos financieros que realmente importan</h2>
+                </div>
             </div>
-     <!-- es solo una iamgen, hasta que aprendamos a hacerlos-->
-            <div class="formulario">
-                <img src="../imagenes/formulario.PNG" alt="formulario">
+             <!-- agrego un formulario armado con bootstrap-->
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="row g-3">
+                         <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="inputname">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="inputlastname">
+                          </div>
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Empresa y Puesto</label>
+                          <input type="text" class="form-control" id="inputjob" placeholder="Indicar puesto y empresa actual">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">Pais</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Argentina</option>
+                            <option>Brasil</option>
+                            <option>Uruguay</option>
+                            <option>Chile</option>
+                            <option>Colombia</option>
+                            <option>Mexico</option>
+                            <option>Otro</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Otro/Pais</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Utilizar en caso de ser necesario aclarar">
+                          </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Codigo Postal</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Quiero una DEMO
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </form>
+                </div>
+                <!--aca termina el formulario-->
             </div>
-        </Section>
-           <Section class="contenedor_contacto">
-            <div class="card_contacto">
-               <img src="../Imagenes/telefono2.png" alt="" class="imagen_contacto">
-               <h3 class="detalle_contacto">+54 9 1169982777</h3>
-             </div>
-             <div class="card_contacto">
-                <img src="../Imagenes/correo2.png" alt="" class="imagen_contacto">
-                <h3 class="detalle_contacto">contacto@simplifi.com.ar</h3>
-              </div>
-              <div class="card_contacto">
-                <img src="../Imagenes/ubicacion2.png" alt="" class="imagen_contacto">
-                <h3 class="detalle_contacto">AV. Siempre viva 123, Bs. As. Argentina</h3>
-              </div>
-           </Section>
-        <section class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.219916042245!2d-58.369522785440765!3d-34.62388246607096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334cd8e677589%3A0x75e134d511f277e4!2sAv.%20Juan%20de%20Garay%20151%2C%20C1826%20CABA!5e0!3m2!1ses-419!2sar!4v1662089121049!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    </main>
-    <hr>
-    <footer class="pie_de_pagina">
-        <img src="../Imagenes/Logo_Simplifi.ico" alt="">
-        <p class="slogan">Moderniza tu propuesta de banca digital sin perder tiempo ni dinero.</p>
-        <section class="redes_sociales">
-        <a href="https://www.linkedin.com/" target="_blank"><img src="../Imagenes/linkedin.ico" alt="" class="icono"></a>
-        <a href="https://www.youtube.com/" target="_blank"><img src="../Imagenes/youtube.ico" alt="" class="icono"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="../Imagenes/insta.ico" alt="" class="icono"></a>
-        </section>
-    <hr>
-    <p class="final">Simplifi 2022 - AV.Garay 151 CABA, Buenos Aires - Argentina</p>
-    </footer>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card_contacto">
+                        <img src="../Imagenes/telefono2.png" alt="" class="img-fluid">
+                        <p class="detalle_contacto">+54 9 1169982777</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card_contacto">
+                        <img src="../Imagenes/correo2.png" alt="" class="img-fluid">
+                        <p class="detalle_contacto">contacto@simplifi.com.ar</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card_contacto">
+                        <img src="../Imagenes/ubicacion2.png" alt="" class="img-fluid">
+                        <p class="detalle_contacto">AV. Siempre viva 123, Bs. As. Argentina</p>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.219916042245!2d-58.369522785440765!3d-34.62388246607096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334cd8e677589%3A0x75e134d511f277e4!2sAv.%20Juan%20de%20Garay%20151%2C%20C1826%20CABA!5e0!3m2!1ses-419!2sar!4v1662089121049!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+</main>
+    <div class="row mt-5">
+        <div class="col-md-12 ">
+            <footer class="pie_de_pagina">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <img src="../Imagenes/Logo_Simplifi.ico" alt="" class="img-fluid">
+                        <p class="slogan">Moderniza tu propuesta de banca digital sin perder tiempo ni dinero.</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <a href="https://www.linkedin.com/" target="_blank"><img src="../Imagenes/linkedin.ico" alt="" class="img-fluid" width="40px"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="../Imagenes/youtube.ico" alt="" class="img-fluid" width="40px"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="../Imagenes/insta.ico" alt="" class="img-fluid" width="40px"></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="final">Simplifi 2022 - AV.Garay 151 CABA, Buenos Aires - Argentina</p>
+                    </div>
+         
+            </footer>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>
+    
