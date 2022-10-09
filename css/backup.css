@@ -1,8 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans';
-}
+
 .cabezera{
 	width: 100%;
 	align-items: center;
@@ -142,14 +138,7 @@
 	margin-bottom: 400px;
 }
 
-.boton{
-	text-decoration: none;
-	padding: 5px;
-	font-size: 25px;
-	color: white;
-	background-color: #8FE3CF;
-	border-radius: 10px;
-}
+
 .contenedor_card{
 	display: flex;
 	justify-content: space-around;
@@ -318,4 +307,17 @@ background-color:#256D85 ;
 .formulario{
 	padding: 10px;
 	border: solid 1px #4d6087;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+.boton{
+	text-decoration: none;
+	padding: 5px;
+	font-size: 25px;
+	color: white;
+	background-color: #8FE3CF;
+	border-radius: 10px;
 }
