@@ -77,27 +77,11 @@
 	position: relative;
 	left: 150px
 }
-.pie_de_pagina{
-	width: 100%;
-	background-color: #4d6087;
-	color: white;
-}
-.slogan{
-	box-sizing: border-box;
-	width: 200px;
-	position: relative;
-	left: 40px;
-	margin-top: -30px;
-	font-size: 13px;
-}
-.icono{
-	width: 30px;
-	position: relative;
-	left: 1100px;
-}
-.final{
-	text-align: center;
-}
+
+
+
+
+
 
 .producto_herramientas{
     display: block;
@@ -139,22 +123,11 @@
 	left: 280px;
 	max-width: 500px;
 }
-.llamado_accion{
-	text-align: center;
-	background-color:dodgerblue;
-	padding: 10px;
-	
-}
-.nosotros{
-	font-size: 45px;
-	margin-bottom: 30px;
-}
-.premios{
-	text-align: center;
-	background-color:dodgerblue;
-	color: white;
-	font-size: 30px;
-}
+
+
+
+
+
 .premios_imagen{
 	position: relative;
 	left:150px
@@ -168,35 +141,7 @@
 	margin-left: 90Px;
 	margin-bottom: 400px;
 }
-.columna{
-	margin-top: 40px;
-	margin-left: 70px;
-	width: 25%;
-	float: left;
-}
-.columna h1{
-	width: 200px;
-	text-align: center;
-}
-.columna p{
-	width: 200px;
-	text-align: center;
-}
-.ceo{
-	margin-top: 40px;
-	width: 200px;
-	
-}
 
-.cto{
-	margin-top: 40px;
-	width: 200px;
-}
-.coo{
-	margin-top: 40px;
-	width: 200px;
-	
-}
 .boton{
 	text-decoration: none;
 	padding: 5px;
@@ -217,34 +162,15 @@
 	border: 2px solid #256D85;
 
 }
-.card_imagen{
-	width: 90%;
-	padding-top: 10px;
-	padding-bottom: 40px;
-}
-.card_titulo{
-	padding: 10px;
-}
-.card_descripcion{
-	padding: 10px;
-}
-.boton_card{
-	padding: 2px;
-	margin-left: 10px;
-	margin-bottom: 20px;
-	text-decoration: none;
-	background-color: #256D85;
-	color: white;
-	border-radius: 2px;
-}
-.llamado_contacto{
-	text-decoration: none;
-	color: white;
-	margin-left: 30px;
-	background-color:#256D85 ;
-	padding: 2px;
-	border-radius: 5px;
-}
+
+
+
+
+
+
+
+
+
 .contenedor_contacto{
 
 	display: flex;
@@ -284,13 +210,112 @@ background-color:#256D85 ;
 	padding: 40px;
 	color: white;
 }
-.formulario{
-	padding: 10px;
-	border: solid 1px #4d6087;
-}
+
+
+
+
+/*pasadas a scss*/
 .navbar-custom{
 	background-color: #4d6087;
 }
 .lista-custom:hover{
-		background-color: #256D85;
+	background-color: #256D85;
+}
+.slogan{
+	box-sizing: border-box;
+	width: 200px;
+	position: relative;
+	left: 40px;
+	margin-top: -30px;
+	font-size: 13px;
+}
+.pie_de_pagina{
+	width: 100%;
+	background-color: #4d6087;
+	color: white;
+}
+.icono{
+	width: 30px;
+	position: relative;
+	left: 1100px;
+}
+.final{
+	text-align: center;
+}
+.llamado_accion{
+	text-align: center;
+	background-color:dodgerblue;
+	padding: 10px;
+	
+}
+.nosotros{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+.card_imagen{
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.card_titulo{
+	padding: 10px;
+}
+.card_descripcion{
+	padding: 10px;
+}
+.boton_card{
+	padding: 2px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	background-color: #256D85;
+	color: white;
+	border-radius: 2px;
+}
+.llamado_contacto{
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	background-color:#256D85 ;
+	padding: 2px;
+	border-radius: 5px;
+}
+.premios{
+	text-align: center;
+	background-color:dodgerblue;
+	color: white;
+	font-size: 30px;
+}
+.columna{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 25%;
+	float: left;
+}
+.columna h1{
+	width: 200px;
+	text-align: center;
+}
+.columna p{
+	width: 200px;
+	text-align: center;
+}
+.ceo{
+	margin-top: 40px;
+	width: 200px;
+	
+}
+
+.cto{
+	margin-top: 40px;
+	width: 200px;
+}
+.coo{
+	margin-top: 40px;
+	width: 200px;
+	
+}
+.formulario{
+	padding: 10px;
+	border: solid 1px #4d6087;
 }

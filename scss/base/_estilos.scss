@@ -1,0 +1,133 @@
+/*Estilo html productos*/
+
+.llamado_accion{
+	text-align: center;
+	background-color:dodgerblue;
+	padding: 10px;
+	
+}
+
+/*Estilo html prensa*/
+.boton{
+	text-decoration: none;
+	padding: 5px;
+	font-size: 25px;
+	color: white;
+	background-color: #8FE3CF;
+	border-radius: 10px;
+}
+.nosotros{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+.card_imagen{
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.card_titulo{
+	padding: 10px;
+}
+.card_descripcion{
+	padding: 10px;
+}
+.boton_card{
+	padding: 2px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	background-color: #256D85;
+	color: white;
+	border-radius: 2px;
+}
+.llamado_contacto{
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	background-color:#256D85 ;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+/*Estilos html Nosotros*/
+
+/* ya esta en html Prensa
+.nosotros{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+*/
+
+.premios{
+	text-align: center;
+	background-color:dodgerblue;
+	color: white;
+	font-size: 30px;
+}
+.columna{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 25%;
+	float: left;
+}
+.columna h1{
+	width: 200px;
+	text-align: center;
+}
+.columna p{
+	width: 200px;
+	text-align: center;
+}
+.ceo{
+	margin-top: 40px;
+	width: 200px;
+	
+}
+
+.cto{
+	margin-top: 40px;
+	width: 200px;
+}
+.coo{
+	margin-top: 40px;
+	width: 200px;
+	
+}
+
+/* Estilo html Contacto*/
+.formulario{
+	padding: 10px;
+	border: solid 1px #4d6087;
+}
+
+/*
+se utilizan en nostros
+.columna{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 25%;
+	float: left;
+}
+.columna h1{
+	width: 200px;
+	text-align: center;
+}
+.columna p{
+	width: 200px;
+	text-align: center;
+}
+.ceo{
+	margin-top: 40px;
+	width: 200px;
+	
+}
+
+.cto{
+	margin-top: 40px;
+	width: 200px;
+}
+.coo{
+	margin-top: 40px;
+	width: 200px;
+	
+}*/
