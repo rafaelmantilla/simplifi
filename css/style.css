@@ -106,8 +106,10 @@
     text-align: left;
 }
 .producto_herramientas_imagen{
-	position: relative;
-	right: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: red dashed 2px;
 }
 .producto_pfm_imagen{
 	position: relative;
@@ -138,9 +140,10 @@
 	max-width: 500px;
 }
 .llamado_accion{
-	background-color:dodgerblue;
 	text-align: center;
-	padding: 20px 120px;
+	background-color:dodgerblue;
+	padding: 10px;
+	
 }
 .nosotros{
 	font-size: 45px;
@@ -239,22 +242,24 @@
 	color: white;
 	margin-left: 30px;
 	background-color:#256D85 ;
-	padding: 10px;
+	padding: 2px;
 	border-radius: 5px;
 }
 .contenedor_contacto{
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
 	padding: 50px;
 	padding-bottom: 20px;
+	border: red 2px dashed;
 }
 .card_contacto{
 	padding-top: 40px;
 	width: 30%;
 	height: 250px;
-	background-color: white;
 	text-align: center;
+	border: red 2px dashed;
 }
 .imagen_contacto{
 	width: 30%;
@@ -280,7 +285,8 @@ background-color:#256D85 ;
 	color: white;
 }
 .formulario{
-	padding: 20px;
+	padding: 10px;
+	border: solid 1px #4d6087;
 }
 .navbar-custom{
 	background-color: #4d6087;
