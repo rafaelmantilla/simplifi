@@ -1,7 +1,9 @@
 /*header*/
+@import "../base/variables";
+
 .navbar-custom{
-            background-color: #4a5d83;
+            background-color: $bg-color-nav1;
 }
 .lista-custom:hover{
-                background-color: #256D85;
+                background-color: $bg-color-hover;
             }

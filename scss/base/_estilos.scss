@@ -1,8 +1,10 @@
 /*Estilo html productos*/
+@import "../base/variables";
+@import "../base/extend";
 
 .llamado_accion{
 	text-align: center;
-	background-color:dodgerblue;
+	background-color: $bg-color-accion;
 	padding: 10px;
 	
 }
@@ -45,22 +47,15 @@
 	color: white;
 	margin-left: 30px;
 	background-color:#256D85 ;
-	padding: 2px;
+	padding: 1px;
 	border-radius: 5px;
 }
 
 /*Estilos html Nosotros*/
 
-/* ya esta en html Prensa
-.nosotros{
-	font-size: 45px;
-	margin-bottom: 30px;
-}
-*/
-
 .premios{
 	text-align: center;
-	background-color:dodgerblue;
+	background-color: $bg-color-accion;
 	color: white;
 	font-size: 30px;
 }
@@ -70,28 +65,25 @@
 	width: 25%;
 	float: left;
 }
-.columna h1{
-	width: 200px;
-	text-align: center;
+.columna{
+	h1{
+		@extend %ajuste_card;
 }
-.columna p{
-	width: 200px;
-	text-align: center;
+}
+.columna{
+	 p{
+		@extend %ajuste_card;
+}
 }
 .ceo{
-	margin-top: 40px;
-	width: 200px;
-	
+	@extend %ajuste_img_card;
 }
 
 .cto{
-	margin-top: 40px;
-	width: 200px;
+	@extend %ajuste_img_card;
 }
 .coo{
-	margin-top: 40px;
-	width: 200px;
-	
+	@extend %ajuste_img_card;	
 }
 
 /* Estilo html Contacto*/
@@ -99,35 +91,3 @@
 	padding: 10px;
 	border: solid 1px #4d6087;
 }
-
-/*
-se utilizan en nostros
-.columna{
-	margin-top: 40px;
-	margin-left: 70px;
-	width: 25%;
-	float: left;
-}
-.columna h1{
-	width: 200px;
-	text-align: center;
-}
-.columna p{
-	width: 200px;
-	text-align: center;
-}
-.ceo{
-	margin-top: 40px;
-	width: 200px;
-	
-}
-
-.cto{
-	margin-top: 40px;
-	width: 200px;
-}
-.coo{
-	margin-top: 40px;
-	width: 200px;
-	
-}*/

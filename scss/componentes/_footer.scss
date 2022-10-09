@@ -1,4 +1,6 @@
 /*footer*/
+@import "../base/variables";
+
 .slogan{
 	box-sizing: border-box;
 	width: 200px;
@@ -9,7 +11,7 @@
 }
 .pie_de_pagina{
 	width: 100%;
-	background-color: #4d6087;
+	background-color: $bg-color-footer;
 	color: white;
 }
 .icono{

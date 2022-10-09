@@ -1,4 +1,14 @@
-/*Estilo html productos*/
+/*Estilo html productos*/ /*variables*/
+.columna p, .columna h1 {
+  width: 200px;
+  text-align: center;
+}
+
+.coo, .cto, .ceo {
+  margin-top: 40px;
+  width: 200px;
+}
+
 .llamado_accion {
   text-align: center;
   background-color: dodgerblue;
@@ -49,17 +59,11 @@
   color: white;
   margin-left: 30px;
   background-color: #256D85;
-  padding: 2px;
+  padding: 1px;
   border-radius: 5px;
 }
 
 /*Estilos html Nosotros*/
-/* ya esta en html Prensa
-.nosotros{
-	font-size: 45px;
-	margin-bottom: 30px;
-}
-*/
 .premios {
   text-align: center;
   background-color: dodgerblue;
@@ -74,69 +78,13 @@
   float: left;
 }
 
-.columna h1 {
-  width: 200px;
-  text-align: center;
-}
-
-.columna p {
-  width: 200px;
-  text-align: center;
-}
-
-.ceo {
-  margin-top: 40px;
-  width: 200px;
-}
-
-.cto {
-  margin-top: 40px;
-  width: 200px;
-}
-
-.coo {
-  margin-top: 40px;
-  width: 200px;
-}
-
 /* Estilo html Contacto*/
 .formulario {
   padding: 10px;
   border: solid 1px #4d6087;
 }
 
-/*
-se utilizan en nostros
-.columna{
-	margin-top: 40px;
-	margin-left: 70px;
-	width: 25%;
-	float: left;
-}
-.columna h1{
-	width: 200px;
-	text-align: center;
-}
-.columna p{
-	width: 200px;
-	text-align: center;
-}
-.ceo{
-	margin-top: 40px;
-	width: 200px;
-
-}
-
-.cto{
-	margin-top: 40px;
-	width: 200px;
-}
-.coo{
-	margin-top: 40px;
-	width: 200px;
-
-}*/
-/* reemplazo de la clase navbar-custom*/
+/*header*/ /*variables*/
 .navbar-custom {
   background-color: #4a5d83;
 }
@@ -145,6 +93,7 @@ se utilizan en nostros
   background-color: #256D85;
 }
 
+/*footer*/ /*variables*/
 .slogan {
   box-sizing: border-box;
   width: 200px;
